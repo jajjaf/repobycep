@@ -20,4 +20,4 @@ jobs:
                   resourceGroupName: ${{ secrets.AZURE_RG }}
                   template: ./main.bicep
                   parameters: storageName=storagejihene
-                   failOnStdErr: false
+                  failOnStdErr: false
